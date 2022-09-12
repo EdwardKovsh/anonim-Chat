@@ -1,5 +1,5 @@
 body{
-	background-color: #1c1c28 !important;
+	background-color: #171824 !important;
 	font-family: 'Comfortaa', cursive !important;
 }
 p, h1, h2, h3, h4, h5, h6, label{
@@ -81,22 +81,15 @@ hr{
 /*месенджер*/
 .chat {
 	border:1px solid #333;
-	width:70%;
-	height: 71vh;
-	background-color:#21222f;
+	width:66%;
+	height: 87vh;
+	background-color:#171624;
 	color:#fff;
-}
-
-.bg-fone-chat{
-	width: 70% !important;
-	height: 71vh !important;
-	object-fit: cover;
-	z-index: 0;
-	position: absolute;
+	background-image: url(../img/back-fon.jpg);
 }
 
 .chat-messages {
-	min-height: 77%;
+	min-height: 70%;
 	max-height: 85%;
 	overflow: auto;
 }
@@ -138,11 +131,11 @@ input {
 }
 
 .chat-form__input {
-	width:79%;
+	width:70%;
 }
 
 .chat-form__submit {
-	width:10%;
+	width:6%;
 }
 /*скролл для чата*/
 
