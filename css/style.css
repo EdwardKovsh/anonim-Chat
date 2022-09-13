@@ -5,6 +5,11 @@ body{
 p, h1, h2, h3, h4, h5, h6, label{
 	color: white;
 }
+
+header{
+	border-bottom: 2px solid black;
+}
+
 a{
 	text-decoration: none!important;
 	color: white!important;
@@ -29,7 +34,7 @@ hr{
 }
 
 /*профиль*/
-.hr__verticy__left{
+/*.hr__verticy__left{
 	position: absolute;
 	border: 4px solid black;
 	border-top: none;
@@ -54,7 +59,7 @@ hr{
 	padding: 0 14% 0 0;
 	height: 100%;
 	right: 0;
-}
+}*/
 
 .width__block{
 	width: 70%;
